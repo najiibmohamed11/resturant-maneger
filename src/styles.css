@@ -1,0 +1,182 @@
+/* styles.css */
+.food {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  display:flex;
+  
+}
+h1{
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+
+.food:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.food label {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.food input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.food input[type="number"] {
+  width: 50px;
+  margin-left: 10px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+.submit-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.submit-button:hover {
+  background-color: #3e8e41;
+}
+button{
+  margin:auto auto;
+}
+
+.print-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  position:absolute;
+  top:89%;
+  right:65%
+}
+
+.print-button:hover {
+  background-color: #006f8f;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  position:absolute;
+  top:89%;
+
+
+  
+}
+
+.reset-btn:hover {
+  background-color: #b30000;
+}
+
+/* ok */
+
+
+
+
+
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+
+
+
+
+
+.paper{
+  text-align: center;
+  
+
+  margin-top: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  width:100%
+}
+
+.paper > header,
+.paper > footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.paper > header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.paper > header h2 {
+  margin: 0;
+}
+
+.paper > footer p {
+  margin: 0;
+  font-size: 14px;
+}
+.container{
+  display:flex;
+  justify-content:space-between;
+  justify-content:space-around;
+
+  width: 98%;
+  height:90%
+
+
+
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+.no-print{
+  width:100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}

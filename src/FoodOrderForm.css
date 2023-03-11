@@ -1,0 +1,50 @@
+.paper {
+  max-width: 400px;
+  padding: 50px;
+  border:none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  height:80%
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+td:first-of-type {
+  width: 50%;
+}
+
+td:last-of-type {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.total-amount {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: right;
+}
+ .sos{
+  font-size:18px
+ }
